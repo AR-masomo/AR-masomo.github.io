@@ -52,9 +52,9 @@ document.addEventListener('DOMContentLoaded', () => {
     jaguar.scene.scale.set(0.1, 0.1, 0.1);
     jaguar.scene.position.set(0, -0.4, 0);
 
-    const kangaroo = await loadGLTF("./assets/models/kangaroo/scene.gltf");
-    kangaroo.scene.scale.set(0.1, 0.1, 0.1);
-    kangaroo.scene.position.set(0, -0.4, 0);
+    //const kangaroo = await loadGLTF("./assets/models/kangaroo/scene.gltf");
+    //kangaroo.scene.scale.set(0.1, 0.1, 0.1);
+    //kangaroo.scene.position.set(0, -0.4, 0);
 
     const lion = await loadGLTF("./assets/models/lion/scene.glb");
     lion .scene.scale.set(0.1, 0.1, 0.1);
@@ -133,8 +133,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const jaguarAnchor = mindarThree.addAnchor(9);
     jaguarAnchor.group.add(jaguar.scene);
 
-    const kangarooAnchor = mindarThree.addAnchor(10);
-    kangarooAnchor.group.add(kangaroo.scene);
+    //const kangarooAnchor = mindarThree.addAnchor(10);
+    //kangarooAnchor.group.add(kangaroo.scene);
 
     const lionAnchor = mindarThree.addAnchor(11);
     lionAnchor.group.add(lion.scene);
