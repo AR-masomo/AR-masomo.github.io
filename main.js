@@ -1,5 +1,4 @@
 import {loadGLTF} from "./libs/loader.js";
-import {CSS3DObject} from "./libs/three.js-r132/examples/jsm/renderers/CSS3DRenderer.js"
 const THREE = window.MINDAR.IMAGE.THREE;
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -8,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
       container: document.body,
       imageTargetSrc: './assets/targets/animals.mind',
     });
-    const {renderer, cssRenderer, scene, cssScene, camera} = mindarThree;
+    const {renderer, scene, camera} = mindarThree;
 
     const light = new THREE.HemisphereLight( 0xffffff, 0xbbbbff, 1 );
     scene.add(light);
@@ -175,7 +174,6 @@ document.addEventListener('DOMContentLoaded', () => {
     await mindarThree.start();
     renderer.setAnimationLoop(() => {
       renderer.render(scene, camera);
-      cssRenderer.render(cssScene, camera);
     });
   }
   start();
