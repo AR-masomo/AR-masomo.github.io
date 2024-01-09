@@ -97,21 +97,21 @@ document.addEventListener('DOMContentLoaded', () => {
     whale.scene.scale.set(0.1, 0.1, 0.1);
     whale.scene.position.set(0, -0.4, 0);
 
-    const xray = new CSS3DObject(document.querySelector("#xray-tetra"));
-    const cssAnchor = mindarThree.addCSSAnchor(24);
-    cssAnchor.group.add(xray);
+    //const xray = new CSS3DObject(document.querySelector("#xray-tetra"));
+    //const cssAnchor = mindarThree.addCSSAnchor(24);
+    //cssAnchor.group.add(xray);
 
-    const yak = new CSS3DObject(document.querySelector("#yak"));
-    const yakAnchor = mindarThree.addCSSAnchor(25);
-    yakAnchor.group.add(yak);
+    //const yak = new CSS3DObject(document.querySelector("#yak"));
+    //const yakAnchor = mindarThree.addCSSAnchor(25);
+    //yakAnchor.group.add(yak);
 
-    const unicorn = new CSS3DObject(document.querySelector("#unicorn"));
-    const unicornAnchor = mindarThree.addCSSAnchor(21);
-    unicornAnchor.group.add(unicorn);
+    //const unicorn = new CSS3DObject(document.querySelector("#unicorn"));
+    //const unicornAnchor = mindarThree.addCSSAnchor(21);
+    //unicornAnchor.group.add(unicorn);
 
-    const vulture = new CSS3DObject(document.querySelector("#yak"));
-    const vultureAnchor = mindarThree.addCSSAnchor(22);
-    vultureAnchor.group.add(vulture);
+    //const vulture = new CSS3DObject(document.querySelector("#yak"));
+    //const vultureAnchor = mindarThree.addCSSAnchor(22);
+    //vultureAnchor.group.add(vulture);
 
 
 
